@@ -55,7 +55,6 @@ public class CounterTest {
 	public void testCounter() {
 
 		assertTrue(counter.getCount()== 0); 
-
 	}
 
 	@Test
