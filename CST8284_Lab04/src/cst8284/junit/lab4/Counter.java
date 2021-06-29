@@ -38,7 +38,7 @@ public class Counter {
      * @return new counter value
      */
     public int increment() {
-    	if(count >= Integer.MAX_VALUE || count <= 0) { 
+    	if(count >= Integer.MAX_VALUE) { 
     		return 0;
     		}
    	 	return ++count;

@@ -72,9 +72,6 @@ public class CounterTest {
 		int result1 = (new Counter(Integer.MAX_VALUE)).increment();
 		assertEquals(result1,0);
 		
-		int result2 = (new Counter(-2)).increment();
-		assertEquals(result2,0);
-
 	}
 
 
@@ -106,9 +103,6 @@ public class CounterTest {
 
 		int result1 = secondCounter.add(counterM).getCount();//1+(integer.maxvalue-1)
 		assertEquals(0,result1);
-
-		int result2 = counter.add(counter).getCount();//0+0
-		assertEquals(0,result2);
 
 	}
 
